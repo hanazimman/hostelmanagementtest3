@@ -1,0 +1,746 @@
+[
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Welcome to Section 1!",
+    "displayTitle": "Welcome to Section 1!",
+    "body": "<p>This is some text to test out the body text of Section 1.&nbsp;</p>",
+    "_id": "64470af140333e7c6aa0254c",
+    "_parentId": "64470af140333e7c6aa02533",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_vanilla": {
+      "_textAlignment": {
+        "_title": "",
+        "_body": "",
+        "_instruction": ""
+      }
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "hotgraphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Hot Air Balloon",
+    "displayTitle": "Hot Air Balloon",
+    "body": "<p>Learn about the parts of this hot air balloon!</p>",
+    "_id": "64470ce240333e7c6aa02e04",
+    "_parentId": "64470ca340333e7c6aa02b32",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_vanilla": {
+      "_textAlignment": {
+        "_title": "",
+        "_body": "",
+        "_instruction": ""
+      }
+    },
+    "instruction": "Select the icons to learn about the components of a hot air balloon. ",
+    "_setCompletionOn": "allItems",
+    "_graphic": {
+      "src": "course/en/assets/6b0ba7f632a16cf6f5dbaa1ac2ac826da567b5bc.png",
+      "alt": "",
+      "attribution": ""
+    },
+    "mobileBody": "",
+    "mobileInstruction": "<p>Select the plus icon followed by the next arrow to find out more.</p>",
+    "_isMobileTextBelowImage": false,
+    "_hidePagination": false,
+    "_canCycleThroughPagination": false,
+    "_isNarrativeOnMobile": true,
+    "_useNumberedPins": false,
+    "_useGraphicsAsPins": false,
+    "_isRound": false,
+    "_items": [
+      {
+        "title": "Balloon",
+        "_ariaLevel": 0,
+        "body": "<p>This is the big red balloon part</p>",
+        "strapline": "Big red balloon",
+        "_imageAlignment": "left",
+        "_graphic": {
+          "src": "course/en/assets/6b0ba7f632a16cf6f5dbaa1ac2ac826da567b5bc.png",
+          "alt": "",
+          "attribution": "",
+          "_classes": ""
+        },
+        "_pin": {
+          "src": "",
+          "alt": ""
+        },
+        "_classes": "",
+        "_left": 20,
+        "_top": 14
+      },
+      {
+        "title": "Basket",
+        "_ariaLevel": 0,
+        "body": "<p>This is the cute little basket</p>",
+        "strapline": "Cute basket",
+        "_imageAlignment": "left",
+        "_graphic": {
+          "src": "course/en/assets/fbfecfd78636badf82687952c20eaffd98e9919b.png",
+          "alt": "",
+          "attribution": "",
+          "_classes": ""
+        },
+        "_pin": {
+          "src": "",
+          "alt": ""
+        },
+        "_classes": "",
+        "_left": 40,
+        "_top": 100
+      }
+    ]
+  },
+  {
+    "_component": "matching",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Drop Down Selection",
+    "displayTitle": "Drop Down Selection",
+    "body": "",
+    "_id": "6449edfa40333e7c6aa03cb9",
+    "_parentId": "6449edec40333e7c6aa03c81",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_vanilla": {
+      "_textAlignment": {
+        "_title": "",
+        "_body": "",
+        "_instruction": ""
+      }
+    },
+    "instruction": "Choose an option from each dropdown list and select Submit.",
+    "ariaQuestion": "",
+    "_attempts": 3,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldResetAllAnswers": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_isRandomQuestionOrder": true,
+    "_questionWeight": 1,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_allowOnlyUniqueAnswers": false,
+    "placeholder": "Please select an option",
+    "_items": [
+      {
+        "text": "Matching Item",
+        "_options": [
+          {
+            "text": "Match!",
+            "_isCorrect": true,
+            "_score": 1
+          },
+          {
+            "text": "Not Match",
+            "_isCorrect": false,
+            "_score": 0
+          },
+          {
+            "text": "Still Not Match",
+            "_isCorrect": false,
+            "_score": 0
+          }
+        ]
+      },
+      {
+        "text": "Which animal is a mammal? ",
+        "_options": [
+          {
+            "text": "Snake",
+            "_isCorrect": false,
+            "_score": 0
+          },
+          {
+            "text": "Bat",
+            "_isCorrect": true,
+            "_score": 0
+          },
+          {
+            "text": "Ostrich",
+            "_isCorrect": false,
+            "_score": 0
+          }
+        ]
+      },
+      {
+        "text": "Which of these is not a primary color?",
+        "_options": [
+          {
+            "text": "Blue",
+            "_isCorrect": false,
+            "_score": 0
+          },
+          {
+            "text": "Green",
+            "_isCorrect": true,
+            "_score": 1
+          },
+          {
+            "text": "Red",
+            "_isCorrect": false,
+            "_score": 0
+          }
+        ]
+      }
+    ],
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Great work!</p>",
+      "_incorrect": {
+        "final": "<p>Sorry, better luck next time!</p>",
+        "notFinal": "<p>Please try again.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit Response",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Try Again",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Give up?",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Hide Correct Answer",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": "This will be your last attempt"
+    }
+  },
+  {
+    "_component": "slider",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Do you love hostels?",
+    "displayTitle": "Do you love hostels?",
+    "body": "",
+    "_id": "6449f35540333e7c6aa05611",
+    "_parentId": "6449f34540333e7c6aa055b3",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_vanilla": {
+      "_textAlignment": {
+        "_title": "",
+        "_body": "",
+        "_instruction": ""
+      }
+    },
+    "instruction": "Please rate how much you like hostels on the slider below. ",
+    "ariaQuestion": "",
+    "_attempts": 2,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_questionWeight": 1,
+    "_recordInteraction": false,
+    "labelStart": "I don't like hostels.",
+    "labelEnd": "My favorite place in the world!",
+    "_scaleStart": 1,
+    "_scaleEnd": 6,
+    "_scaleStep": 1,
+    "scaleStepPrefix": "",
+    "scaleStepSuffix": "",
+    "_correctAnswer": "",
+    "_correctRange": {
+      "_bottom": 0,
+      "_top": 0
+    },
+    "_showScaleIndicator": true,
+    "_showNumber": true,
+    "_showScale": true,
+    "_showScaleNumbers": true,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>You did it!</p>",
+      "_incorrect": {
+        "final": "<p>Wrong!</p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "This is the logo",
+    "displayTitle": "This is the logo",
+    "body": "<p>Body text</p>",
+    "_id": "6449f6b040333e7c6aa0642f",
+    "_parentId": "6449f60440333e7c6aa0615c",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_vanilla": {
+      "_textAlignment": {
+        "_title": "",
+        "_body": "",
+        "_instruction": ""
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "longdescription": "",
+      "large": "course/en/assets/9e0bd6fe423648e8b61b4b44b75d1206416c77b5.png",
+      "small": "course/en/assets/9e0bd6fe423648e8b61b4b44b75d1206416c77b5.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_component": "list",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "List of ways to travel",
+    "displayTitle": "List of ways to travel",
+    "body": "",
+    "_id": "644b0a1d40333e7c6aa0760a",
+    "_parentId": "644b09df40333e7c6aa07075",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_vanilla": {
+      "_textAlignment": {
+        "_title": "",
+        "_body": "",
+        "_instruction": ""
+      }
+    },
+    "instruction": "",
+    "_columns": 0,
+    "_orderedList": false,
+    "_animateList": true,
+    "_percentInviewVertical": 70,
+    "_itemHorizontalAlignment": "start",
+    "_bulletAlignment": "start",
+    "_items": [
+      {
+        "title": "Travel by Plane",
+        "body": "",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/701588af1aeec15c10edd097fc489660778651fb.png",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Travel by Ship",
+        "body": "",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/c9f026248c4e715f0e49a74c4cbb247c5326f863.png",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Travel by Camping",
+        "body": "",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/8d29dc9e1c9ee4fc0b37e9bbbc185653d3b1a406.png",
+          "alt": "",
+          "attribution": ""
+        }
+      }
+    ]
+  },
+  {
+    "_component": "list",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Travel List 2",
+    "displayTitle": "Travel List 2",
+    "body": "",
+    "_id": "644b0a2240333e7c6aa076ff",
+    "_parentId": "644b09df40333e7c6aa07075",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_vanilla": {
+      "_textAlignment": {
+        "_title": "",
+        "_body": "",
+        "_instruction": ""
+      }
+    },
+    "instruction": "",
+    "_columns": 0,
+    "_orderedList": false,
+    "_animateList": true,
+    "_percentInviewVertical": 70,
+    "_itemHorizontalAlignment": "start",
+    "_bulletAlignment": "start",
+    "_items": [
+      {
+        "title": "Pack your bags!",
+        "body": "",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/4d0c7352089a063317c886a5f53030ba26b57f01.png",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Don't forget your camera!",
+        "body": "",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/f87cc22a6e26fe7bfc06dec85fe43a39557d6e86.png",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Don't get lost!",
+        "body": "",
+        "_classes": "",
+        "_graphic": {
+          "src": "course/en/assets/6734d0e6c200103cf7c35d91003c80b94592b1d9.png",
+          "alt": "",
+          "attribution": ""
+        }
+      }
+    ]
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Accordion",
+    "displayTitle": "Accordion",
+    "body": "",
+    "_id": "644b0c8f40333e7c6aa08489",
+    "_parentId": "644b09de40333e7c6aa0703c",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_vanilla": {
+      "_textAlignment": {
+        "_title": "",
+        "_body": "",
+        "_instruction": ""
+      }
+    },
+    "instruction": "Select the headings to find out more.",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Thing 1",
+        "body": "<p>Information about thing 1</p>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Thing 2",
+        "body": "<p>Information about thing 2</p>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Thing 3",
+        "body": "<p>Information about thing 3</p>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "644b0cdf40333e7c6aa087b2",
+    "_parentId": "644b09dd40333e7c6aa07003",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_vanilla": {
+      "_textAlignment": {
+        "_title": "",
+        "_body": "",
+        "_instruction": ""
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "longdescription": "",
+      "large": "course/en/assets/46ffc966db060e1cb12c65ed6f159e7995f84463.png",
+      "small": "course/en/assets/46ffc966db060e1cb12c65ed6f159e7995f84463.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "644b0ce340333e7c6aa088fb",
+    "_parentId": "644b09dd40333e7c6aa07003",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_vanilla": {
+      "_textAlignment": {
+        "_title": "",
+        "_body": "",
+        "_instruction": ""
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "longdescription": "",
+      "large": "course/en/assets/0e6f66fa18e82f519defaa5f752169a699f577aa.png",
+      "small": "course/en/assets/0e6f66fa18e82f519defaa5f752169a699f577aa.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_component": "text",
+    "_classes": "Fontchange",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "<p>This is a test to change the font.</p>",
+    "_id": "644b133740333e7c6aa0a0e6",
+    "_parentId": "644b133040333e7c6aa09f7e",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_vanilla": {
+      "_textAlignment": {
+        "_title": "",
+        "_body": "",
+        "_instruction": ""
+      }
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "<p>Original Font</p>",
+    "_id": "644b142140333e7c6aa0a6e5",
+    "_parentId": "644b141d40333e7c6aa0a57d",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_vanilla": {
+      "_textAlignment": {
+        "_title": "",
+        "_body": "",
+        "_instruction": ""
+      }
+    },
+    "instruction": ""
+  }
+]
